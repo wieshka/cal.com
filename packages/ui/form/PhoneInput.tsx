@@ -24,6 +24,7 @@ function PhoneInput<FormValues>({
       international
       name={name}
       control={control}
+      defaultCountry="LV"
       onChange={onChange}
       countrySelectProps={{ className: "text-black" }}
       numberInputProps={{
